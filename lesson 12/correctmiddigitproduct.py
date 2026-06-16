@@ -1,4 +1,4 @@
-")#Input a number
+#Input a number
 num = int(input("Enter the number : "))
 t = num
 numLen = 0
@@ -23,4 +23,4 @@ if numLen>=4: #condition 1
   print("\nProduct of Mid digits (" +str(midOne)+ "*" +str(midTwo)+ ") = ", prod)
 
 else:
-  print("\nIt's not a 4 or more than 4-digit number!
+  print("\nIt's not a 4 or more than 4-digit number!")
