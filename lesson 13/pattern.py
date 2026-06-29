@@ -10,7 +10,7 @@
 # to move the cursor to the next line for the next row.#
 print("right angle triangle pattern.")
 n = int(input("please give me an integer value to be n."))
-for i in range (0,n-1):
+for i in range (0,n):
     for j in range(i+1):
         print("*",end = "")
     print("")
