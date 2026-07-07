@@ -1,0 +1,16 @@
+from turtle import *
+speed(1)
+penup()
+goto(-350, 100)
+pendown()
+pensize(5)
+color("magenta")
+
+
+forward(150)
+left(90)
+forward(150)
+left(90)
+forward(150)
+left(90)
+forward(150)

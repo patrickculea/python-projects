@@ -5,4 +5,5 @@ t = turtle.Turtle()
 for i in range(4):
     t.forward(l)
     t.left(90)
+t.done()
 
