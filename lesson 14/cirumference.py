@@ -20,7 +20,7 @@ radiusd = int(input("Please tell me the length of your choice"))
 
 if choice == "area":
     area(radiusd,rd)
-if choice == "circumference":
+elif choice == "circumference":
     circumference(radiusd,rd)
 
 
