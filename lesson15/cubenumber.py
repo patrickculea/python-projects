@@ -7,9 +7,10 @@ def three(num):
     if num % 3 == 0:
         return cube(num)
     else:
-        return False
+        print("False")
+
+num= int(input("Give me a number."))
     
-print(three(9))
-print(three(4))
-print(three(6))
+three(num)
+
 
