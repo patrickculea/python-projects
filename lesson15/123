@@ -1,0 +1,19 @@
+n = int(input("HI"))
+num = n
+tot =n
+
+def factorial(num,tot,n):
+    for i in range(n-1):
+        num -= 1
+        tot = tot * num
+    return(tot)
+
+print(factorial(n,n,n))
+
+
+
+
+
+
+
+
