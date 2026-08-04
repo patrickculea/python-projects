@@ -1,6 +1,5 @@
 print("==== VENDING MACHINE ====")
-runagain = True
-while (runagain == True):
+while True:
     item =input("Would you like doritos or twix?")
     if item == "doritos":
          print("doritos cost 25p.")
