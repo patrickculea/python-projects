@@ -25,7 +25,7 @@ while True:
         continue
 
 try:
-    a = int(input("Please give me  2 numbers. I will preform with them.",op, "for subtraction i will subtract the second integer from the first, and for division i will divide the second integer by the first.integer 1 = "))
+    a = int(input("Please give me  2 numbers. I will preform with them.for subtraction i will subtract the second integer from the first, and for division i will divide the second integer by the first.integer 1 = "))
     b =int(input("integer 2 ="))
     if op == "division":
         print(division(a,b))
