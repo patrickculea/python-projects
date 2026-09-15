@@ -1,0 +1,11 @@
+tuplex_1=(50,"Fifty",5.0,True)
+print(tuplex_1)
+tuplex_2 = (50,20,1,4,50,50)
+print(tuplex_2)
+tuplex_3 = tuplex_2 + (9,)
+print(tuplex_3)
+print("There are :",tuplex_2.count(50),",50's in tuplex_2")
+tuplex_4 = (1,2,3,4,5,6,7,8,9)
+print(tuplex_4[3:5])
+print(tuplex_4[:6])
+
