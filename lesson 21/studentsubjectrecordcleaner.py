@@ -17,7 +17,7 @@ print("")
 print("After adding id5:")
 print(student_data)
 
-student_data["id2"]["subject""english, math, coding"
+student_data["id2"]["subject"]=["english, math, coding"]
 
 print("")
 print("After updating is2 subject:")
