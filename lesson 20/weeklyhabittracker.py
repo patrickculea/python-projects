@@ -2,7 +2,7 @@ habit_info =("toothbrushing",True,7,10)
 print(habit_info)
 
 weekly_habits=(1,1,1,1,1,1,1)
-print(weekly habits)
+print(weekly_habits)
 print("Total days tracked:")
 print(len(weekly_habits))
 
