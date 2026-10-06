@@ -1,8 +1,9 @@
 print("Give me five snack items ,some of them should repeat but there should be 5 in total. I will make them a set. I will do this twice")
 
 
-snack_set = set()
-def set_maker():
+
+def set_maker(): 
+    snack_set = set()   
     n = int(input("How many snacks should there be in this set"))
     for i in range (n) :
     
@@ -10,6 +11,7 @@ def set_maker():
         snack_set.add(a)
 
     return snack_set
+    snack_set = 0
 
 snackset_1 =set_maker()
 
@@ -22,6 +24,8 @@ if choice == "yes":
     print(f"The updated snackset_1 is {snackset_1}.")
 else:
     print(f"Ok, snackset_1 remains as {snackset_1}.")
+
+print(f"snackset_2 is:{snackset_2}")
 
 x = snackset_1.intersection(snackset_2)
 print(f"The common snacks that re both in snackset_1 and in snackset_2 are {x}.")
