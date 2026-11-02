@@ -32,7 +32,7 @@ while True:
     elif option == "m" or option == "f":
         if option == "m":
             result = {k:v for k,v in nested_dictionary.items() if v["sex"] == "m"}
-            print("result")
+            print(result)
         else:
             result = {k:v for k,v in nested_dictionary.items() if v["sex"] == "f"}
             print(result)
