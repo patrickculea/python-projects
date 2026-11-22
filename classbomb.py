@@ -6,7 +6,7 @@ class bomba:
         self.remtime = remtime
     def initial_meth(self):
         while True:
-            print("Your mission is to detonate the bomb in 60 seconds")
+            print(f"Your mission is to detonate the bomb in {self.remtime} seconds")
             start = input("input start to start the mission")
             if start == "start":
             
