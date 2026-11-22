@@ -47,11 +47,14 @@ class bomba:
                 print("BOOOOOM")
                 sys.exit()
             cut = input("What is the order?")
+            
             if cut == order:
                 bomb = "defused"
         
                 print("You have succesfully defused the bomb!")
                 sys.exit()
+            else:
+                print("You have",self.remtime-(time.time()-ticking)," seconds left")
 
 
 b1 = bomba(["green","blue","orange","red","yellow"],60)
