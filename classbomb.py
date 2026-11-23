@@ -35,8 +35,14 @@ class bomba:
         w5 = random.choice(self.colours)
         self.colours.remove(w5)
 
+        del(self.colours)
+        
+
+
         order = f"{w1} {w2} {w3} {w4} {w5}"
+
         bomb =""
+        
         ticking =time.time()
 
         print("There are 5 wires, 1 yellow, 1 orange, 1 green, 1 red, 1blue")
@@ -45,6 +51,7 @@ class bomba:
         while bomb != "defused":
             if time.time()-ticking >= self.remtime:
                 print("BOOOOOM")
+                print("The right order is:",order)
                 sys.exit()
             cut = input("What is the order?")
             
@@ -57,9 +64,12 @@ class bomba:
                 print("You have",self.remtime-(time.time()-ticking)," seconds left")
 
 
-b1 = bomba(["green","blue","orange","red","yellow"],60)
+b1 = bomba(["green","blue","orange","red","yellow"],5)
 if b1.initial_meth():
     b1.detonation1()
+    #print("The correct order was",order)
+    del(b1)
+    
 
 
 
